@@ -2,47 +2,47 @@ const PROJECTS = [
   {
     id:1, sem:"2do Semestre · 2A", tags:["2do","foda"],
     pdf:"resources/doc-foda-guadalupe.pdf",
-    title:"Analisis FODA — Guadalupe de Rivera",
+    title:"Análisis FODA — Guadalupe de Rivera",
     place:"Guadalupe de Rivera, Irapuato",
-    desc:"Diagnostico integral de la comunidad rural de Guadalupe de Rivera. Los alumnos identificaron que la comunidad tiene una ubicacion estrategica cerca del corredor industrial de Irapuato y redes de apoyo solidas entre vecinos, pero enfrenta amenazas externas graves: violencia de grupos delictivos en la region, cambio climatico que afecta la agricultura familiar y falta de atencion gubernamental en obras publicas basicas como alumbrado y pavimentacion de calles.",
-    alumnos:["Alexis Aza Hernandez","Miriam Serrano Mosqueda","Pamela Mosqueda Negrete","Ana Rosa Ortiz Ortiz","Yuritzi Ledesma Elias","Cristian Alfaro Almaguer","Noemi Rodriguez Hernandez"],
-    docente:"Rene Gonzalez Duran",
+    desc:"Diagnóstico integral de la comunidad rural de Guadalupe de Rivera. Los alumnos identificaron que la comunidad tiene una ubicación estratégica cerca del corredor industrial de Irapuato y redes de apoyo sólidas entre vecinos, pero enfrenta amenazas externas graves: violencia de grupos delictivos en la región, cambio climático que afecta la agricultura familiar y falta de atención gubernamental en obras públicas básicas como alumbrado y pavimentación de calles.",
+    alumnos:["Alexis Aza Hernández","Miriam Serrano Mosqueda","Pamela Mosqueda Negrete","Ana Rosa Ortiz Ortiz","Yuritzi Ledesma Elías","Cristian Alfaro Almaguer","Noemí Rodríguez Hernández"],
+    docente:"René González Durán",
     findings:[
-      {v:"Fortaleza",d:"Ubicacion estrategica cerca del corredor industrial de Irapuato y sentido de organizacion comunitaria activo."},
-      {v:"Oportunidad",d:"Cercania con universidades y acceso a transporte que permite a los jovenes continuar estudiando fuera de la comunidad."},
-      {v:"Amenaza",d:"Presencia de crimen organizado en la region que genera miedo, limita la convivencia social y pone en riesgo a la poblacion joven."}
+      {v:"Fortaleza",d:"Ubicación estratégica cerca del corredor industrial de Irapuato y sentido de organización comunitaria activo."},
+      {v:"Oportunidad",d:"Cercanía con universidades y acceso a transporte que permite a los jóvenes continuar estudiando fuera de la comunidad."},
+      {v:"Amenaza",d:"Presencia de crimen organizado en la región que genera miedo, limita la convivencia social y pone en riesgo a la población joven."}
     ],
-    conc:"La comunidad de Guadalupe de Rivera tiene bases sociales solidas, pero las amenazas externas — especialmente la inseguridad — requieren atencion urgente. El analisis mostro que la participacion ciudadana organizada es la herramienta mas viable a corto plazo para mejorar las condiciones locales."
+    conc:"La comunidad de Guadalupe de Rivera tiene bases sociales sólidas, pero las amenazas externas — especialmente la inseguridad — requieren atención urgente. El análisis mostró que la participación ciudadana organizada es la herramienta más viable a corto plazo para mejorar las condiciones locales."
   },
   {
-    id:2, sem:"2do Semestre ", tags:["2do","ambiental"],
+    id:2, sem:"2do Semestre", tags:["2do","ambiental"],
     pdf:"resources/doc-encuesta-rancho.pdf",
     title:"Encuesta Ambiental PEC",
     place:"Rancho Nuevo de la Cruz, Abasolo",
-    desc:"Encuesta de percepcion ambiental aplicada a 33 personas de la comunidad. El estudio revelo que la acumulacion de basura es identificada por el 46% como el problema mas grave, seguido de la quema de basura y la perdida de areas verdes. El 85% afirmo observar practicas daninas al medio ambiente de manera frecuente o constante, lo que indica que el problema es visible y cotidiano para los habitantes de la comunidad.",
-    alumnos:["Ayala Arellano Fatima","Borja Ramirez Jonatan","Delgado Delgado Fatima Monserrat","Delgado Linares Estrella","Flores Bravo Candelaria","Hernandez Vazquez Evelin","Landeros Gordillo Hugo Tristan","Moreno Rios Nadia","Ramirez Moreno Juan Axel"],
-    docente:"Academia de Matematicas 2do Semestre",
+    desc:"Encuesta de percepción ambiental aplicada a 33 personas de la comunidad. El estudio reveló que la acumulación de basura es identificada por el 46% como el problema más grave, seguido de la quema de basura y la pérdida de áreas verdes. El 85% afirmó observar prácticas dañinas al medio ambiente de manera frecuente o constante, lo que indica que el problema es visible y cotidiano para los habitantes de la comunidad.",
+    alumnos:["Ayala Arellano Fátima","Borja Ramírez Jonatan","Delgado Delgado Fátima Monserrat","Delgado Linares Estrella","Flores Bravo Candelaria","Hernández Vázquez Evelin","Landeros Gordillo Hugo Tristán","Moreno Ríos Nadia","Ramírez Moreno Juan Axel"],
+    docente:"Academia de Matemáticas 2do Semestre",
     findings:[
-      {v:"46%",d:"Identifica la acumulacion de basura como el principal problema ambiental de la comunidad."},
-      {v:"85%",d:"Afirma observar practicas daninas al medio ambiente de manera frecuente o constante."},
-      {v:"57%",d:"Estaria dispuesto a participar activamente en un proyecto ambiental comunitario organizado."}
+      {v:"46%",d:"Identifica la acumulación de basura como el principal problema ambiental de la comunidad."},
+      {v:"85%",d:"Afirma observar prácticas dañinas al medio ambiente de manera frecuente o constante."},
+      {v:"57%",d:"Estaría dispuesto a participar activamente en un proyecto ambiental comunitario organizado."}
     ],
-    conc:"Los resultados senalaron que la plaza principal, el kiosco y las areas verdes son los espacios que los habitantes consideran prioritarios para mejorar. La alta disposicion a participar indica que existe capital social suficiente para ejecutar intervenciones comunitarias exitosas si se cuenta con organizacion y liderazgo."
+    conc:"Los resultados señalaron que la plaza principal, el kiosco y las áreas verdes son los espacios que los habitantes consideran prioritarios para mejorar. La alta disposición a participar indica que existe capital social suficiente para ejecutar intervenciones comunitarias exitosas si se cuenta con organización y liderazgo."
   },
   {
-    id:3, sem:"2do Semestre · Ofimatica", tags:["2do","ambiental"],
+    id:3, sem:"2do Semestre · Ofimática", tags:["2do","ambiental"],
     pdf:"resources/doc-encuesta-trinidad.pdf",
-    title:"Percepcion Ambiental — La Trinidad",
+    title:"Percepción Ambiental — La Trinidad",
     place:"La Trinidad, Abasolo",
-    desc:"Encuesta aplicada a 24 personas de la comunidad. Los hallazgos muestran que el 67% identifica la acumulacion y quema de basura como los problemas mas graves. El 79% considera que la poblacion es poco responsable con el cuidado del medio ambiente, apuntando a una necesidad urgente de educacion ambiental desde etapas tempranas. La mayoria percibe que no existen practicas institucionalizadas de cuidado ambiental en la comunidad.",
-    alumnos:["Castillo Nieto Miguel","Vargas Castro Aldo Antonio","Dimas Ayala Edgar Leonardo","Rosales Nunez Jesus Emmanuel","Ramirez Castaneda Gael Octavio","Aldaco Cisneros Luis Fernando","Cisneros Mosqueda Valeria","Galvan Laguna Claudia"],
-    docente:"Academia de Matematicas 2do Semestre",
+    desc:"Encuesta aplicada a 24 personas de la comunidad. Los hallazgos muestran que el 67% identifica la acumulación y quema de basura como los problemas más graves. El 79% considera que la población es poco responsable con el cuidado del medio ambiente, apuntando a una necesidad urgente de educación ambiental desde etapas tempranas. La mayoría percibe que no existen prácticas institucionalizadas de cuidado ambiental en la comunidad.",
+    alumnos:["Castillo Nieto Miguel","Vargas Castro Aldo Antonio","Dimas Ayala Edgar Leonardo","Rosales Núñez Jesús Emmanuel","Ramírez Castañeda Gael Octavio","Aldaco Cisneros Luis Fernando","Cisneros Mosqueda Valeria","Galván Laguna Claudia"],
+    docente:"Academia de Matemáticas 2do Semestre",
     findings:[
-      {v:"67%",d:"Identifica la acumulacion y quema de basura como los mayores problemas ambientales de su comunidad."},
-      {v:"79%",d:"Considera que la poblacion local es poco o nada responsable con el cuidado del medio ambiente."},
-      {v:"58%",d:"Prioriza la educacion ambiental y jornadas de limpieza como las acciones que mas ayudarian."}
+      {v:"67%",d:"Identifica la acumulación y quema de basura como los mayores problemas ambientales de su comunidad."},
+      {v:"79%",d:"Considera que la población local es poco o nada responsable con el cuidado del medio ambiente."},
+      {v:"58%",d:"Prioriza la educación ambiental y jornadas de limpieza como las acciones que más ayudarían."}
     ],
-    conc:"La prioridad es clara: limpieza de calles, recoleccion de basura y recuperacion de areas verdes. El proyecto concluye que sin un cambio en la cultura ambiental, cualquier intervencion fisica tendra efectos temporales. La educacion desde la escuela es el punto de partida mas eficaz."
+    conc:"La prioridad es clara: limpieza de calles, recolección de basura y recuperación de áreas verdes. El proyecto concluye que sin un cambio en la cultura ambiental, cualquier intervención física tendrá efectos temporales. La educación desde la escuela es el punto de partida más eficaz."
   },
   {
     id:4, sem:"2do Semestre · Agropecuario", tags:["2do","ambiental"],
@@ -50,7 +50,7 @@ const PROJECTS = [
     title:"Perception and Actions on Community",
     place:"Comunidad local, Abasolo",
     desc:"Survey applied in English to 11 community members to assess environmental perception and individual actions. Most respondents rate the environment as good, but identified waste management as only fair. The survey revealed a disconnect between positive environmental perception and harmful practices observed daily, suggesting residents may not associate common behaviors like burning trash with environmental damage.",
-    alumnos:["Hernandez Marquez Hector Jesus","Camargo Garcia Yaneiry Guadalupe","Zavala Rivera Jose Fidel"],
+    alumnos:["Hernández Márquez Héctor Jesús","Camargo García Yaneiry Guadalupe","Zavala Rivera José Fidel"],
     docente:"CBTA 174 · 2do A Agropecuario",
     findings:[
       {v:"81.8%",d:"Would actively participate in a community environmental project if organized."},
@@ -60,87 +60,87 @@ const PROJECTS = [
     conc:"The high willingness to participate makes this community particularly receptive to organized environmental initiatives. A well-structured project focused on education and waste management could generate meaningful and lasting change with relatively low resistance from residents."
   },
   {
-    id:5, sem:"4to Semestre · Ofimatica", tags:["4to","ambiental"],
+    id:5, sem:"4to Semestre · Ofimática", tags:["4to","ambiental"],
     pdf:"resources/doc-cultura-medio-ambiente.pdf",
     title:"Cultura y Cuidado del Medio Ambiente",
     place:"Rancho Nuevo de la Cruz, Abasolo",
-    desc:"Los alumnos disenaron propuestas de bardas comunitarias en Canva aplicando la paleta del Gobierno Federal y principios de comunicacion visual para transmitir mensajes de concientizacion ambiental. El proceso incluyo presentacion ante la academia, seleccion del trabajo ganador por votacion colectiva y publicacion en la pagina oficial de Facebook del CBTA 174. Ademas desarrollaron sitios informativos en Google Sites como parte de sus competencias digitales.",
-    alumnos:["Alumnos de 4to Semestre Ofimatica — CBTA 174"],
-    docente:"Alberto Prado Martinez",
+    desc:"Los alumnos diseñaron propuestas de bardas comunitarias en Canva aplicando la paleta del Gobierno Federal y principios de comunicación visual para transmitir mensajes de concientización ambiental. El proceso incluyó presentación ante la academia, selección del trabajo ganador por votación colectiva y publicación en la página oficial de Facebook del CBTA 174. Además desarrollaron sitios informativos en Google Sites como parte de sus competencias digitales.",
+    alumnos:["Alumnos de 4to Semestre Ofimática — CBTA 174"],
+    docente:"Alberto Prado Martínez",
     findings:[
-      {v:"Canva",d:"Plataforma utilizada para disenar bardas comunitarias con paleta institucional del Gobierno Federal."},
+      {v:"Canva",d:"Plataforma utilizada para diseñar bardas comunitarias con paleta institucional del Gobierno Federal."},
       {v:"Google Sites",d:"Herramienta usada para crear sitios web informativos sobre el proyecto PAEC."},
-      {v:"Facebook",d:"Red social donde se difundio el diseno ganador, logrando alcance en la comunidad educativa."}
+      {v:"Facebook",d:"Red social donde se difundió el diseño ganador, logrando alcance en la comunidad educativa."}
     ],
-    conc:"El proyecto demostro que los alumnos pueden aplicar competencias digitales para generar contenido con impacto social real. Ver su trabajo publicado y reconocido por la comunidad reforzо el sentido de responsabilidad y pertenencia de los estudiantes hacia su entorno."
+    conc:"El proyecto demostró que los alumnos pueden aplicar competencias digitales para generar contenido con impacto social real. Ver su trabajo publicado y reconocido por la comunidad reforzó el sentido de responsabilidad y pertenencia de los estudiantes hacia su entorno."
   },
   {
-    id:6, sem:"4to Semestre · Ofimatica", tags:["4to","ambiental"],
+    id:6, sem:"4to Semestre · Ofimática", tags:["4to","ambiental"],
     pdf:"resources/doc-capsula-tiempo.pdf",
-    title:"Capsula del Tiempo — Mi Comunidad y su Cuidado",
+    title:"Cápsula del Tiempo — Mi Comunidad y su Cuidado",
     place:"Plantel CBTA 174, Abasolo",
-    desc:"Proyecto que combina investigacion historica sobre el CBTA 174 con intervencion ambiental concreta. Los alumnos documentaron que la escuela fue fundada en 1975 e inicio actividades en 1984 en 100 hectareas ejidales donadas por la comunidad de Rancho Nuevo de la Cruz. Con ese contexto historico como motivacion, organizaron jornadas de limpieza en el estacionamiento del plantel separando residuos organicos e inorganicos y recuperando areas descuidadas.",
-    alumnos:["Diana Ramirez Vargas","Francisco Emanuel Garcia Aldaco"],
-    docente:"MVZ. Noe Ramirez Ramirez",
+    desc:"Proyecto que combina investigación histórica sobre el CBTA 174 con intervención ambiental concreta. Los alumnos documentaron que la escuela fue fundada en 1975 e inició actividades en 1984 en 100 hectáreas ejidales donadas por la comunidad de Rancho Nuevo de la Cruz. Con ese contexto histórico como motivación, organizaron jornadas de limpieza en el estacionamiento del plantel separando residuos orgánicos e inorgánicos y recuperando áreas descuidadas.",
+    alumnos:["Diana Ramírez Vargas","Francisco Emanuel García Aldaco"],
+    docente:"MVZ. Noé Ramírez Ramírez",
     findings:[
-      {v:"1984",d:"Ano en que el CBTA 174 inicio actividades academicas formales en Rancho Nuevo de la Cruz, Abasolo."},
-      {v:"100 ha",d:"Superficie ejidal donada por la comunidad para la construccion del plantel que hoy alberga a cientos de estudiantes."},
-      {v:"8AM — 1PM",d:"Horario completo de la jornada de limpieza realizada en el area del estacionamiento y jardineras del plantel."}
+      {v:"1984",d:"Año en que el CBTA 174 inició actividades académicas formales en Rancho Nuevo de la Cruz, Abasolo."},
+      {v:"100 ha",d:"Superficie ejidal donada por la comunidad para la construcción del plantel que hoy alberga a cientos de estudiantes."},
+      {v:"8AM — 1PM",d:"Horario completo de la jornada de limpieza realizada en el área del estacionamiento y jardineras del plantel."}
     ],
-    conc:"Conocer la historia del plantel genero en los alumnos un sentido de responsabilidad hacia el espacio que ocupan. Cuando los estudiantes entienden el esfuerzo que costo construir lo que tienen, lo cuidan de manera distinta. La identidad historica es una herramienta poderosa para motivar el cuidado del entorno."
+    conc:"Conocer la historia del plantel generó en los alumnos un sentido de responsabilidad hacia el espacio que ocupan. Cuando los estudiantes entienden el esfuerzo que costó construir lo que tienen, lo cuidan de manera distinta. La identidad histórica es una herramienta poderosa para motivar el cuidado del entorno."
   },
   {
     id:7, sem:"2do Semestre · 2A RRHH", tags:["2do","foda"],
     pdf:"resources/doc-foda-san-cristobal.pdf",
-    title:"FODA Comunitario — San Cristobal",
-    place:"San Cristobal, Irapuato",
-    desc:"Analisis FODA de San Cristobal, ubicada al noreste del centro de Irapuato. Con aproximadamente 5,100 habitantes y edad promedio de 27 anos, es una comunidad joven con economia basada en agricultura y comercio. Como fortaleza principal se identifico el sentido de pertenencia y las redes de apoyo entre vecinos. Como principal amenaza, la presencia del crimen organizado en Irapuato, que ha registrado hechos violentos en zonas cercanas a la comunidad.",
-    alumnos:["Arevalo Jorge Victoria Nereida","Serrano Banda Maria Guadalupe","Martinez Corona Kamila","Contreras Perez Renata","Contreras Ramirez Leslie Pamela","Banda Gallaga Jessica Nathalia","Hernandez Medina Estefania","Rodriguez Hernandez Juan Pablo","Granados Castaneda Mario Alexis"],
-    docente:"L.A. Rene Gonzalez Duran",
+    title:"FODA Comunitario — San Cristóbal",
+    place:"San Cristóbal, Irapuato",
+    desc:"Análisis FODA de San Cristóbal, ubicada al noreste del centro de Irapuato. Con aproximadamente 5,100 habitantes y edad promedio de 27 años, es una comunidad joven con economía basada en agricultura y comercio. Como fortaleza principal se identificó el sentido de pertenencia y las redes de apoyo entre vecinos. Como principal amenaza, la presencia del crimen organizado en Irapuato, que ha registrado hechos violentos en zonas cercanas a la comunidad.",
+    alumnos:["Arévalo Jorge Victoria Nereida","Serrano Banda María Guadalupe","Martínez Corona Kamila","Contreras Pérez Renata","Contreras Ramírez Leslie Pamela","Banda Gallaga Jessica Nathalia","Hernández Medina Estefanía","Rodríguez Hernández Juan Pablo","Granados Castañeda Mario Alexis"],
+    docente:"L.A. René González Durán",
     findings:[
-      {v:"5,100+",d:"Habitantes en San Cristobal segun datos de 2020, con poblacion predominantemente joven y en edad productiva."},
-      {v:"27 anos",d:"Edad promedio de la comunidad, ventaja demografica importante para el desarrollo economico local."},
+      {v:"5,100+",d:"Habitantes en San Cristóbal según datos de 2020, con población predominantemente joven y en edad productiva."},
+      {v:"27 años",d:"Edad promedio de la comunidad, ventaja demográfica importante para el desarrollo económico local."},
       {v:"Crimen org.",d:"Principal amenaza externa: grupos delictivos en Irapuato afectan la tranquilidad y limitan actividades comunitarias."}
     ],
-    conc:"San Cristobal tiene un perfil demografico favorable que representa una oportunidad real de desarrollo. Sin embargo, el FODA fue claro: la inseguridad es el freno mas grande. Fortalecer la organizacion ciudadana y exigir mayor presencia policial son los pasos mas urgentes para esta comunidad."
+    conc:"San Cristóbal tiene un perfil demográfico favorable que representa una oportunidad real de desarrollo. Sin embargo, el FODA fue claro: la inseguridad es el freno más grande. Fortalecer la organización ciudadana y exigir mayor presencia policial son los pasos más urgentes para esta comunidad."
   },
   {
-    id:8, sem:"4to Semestre · Ofimatica", tags:["4to","ambiental"],
+    id:8, sem:"4to Semestre · Ofimática", tags:["4to","ambiental"],
     pdf:"resources/doc-conciencia-historica.pdf",
-    title:"Conciencia Historica — Mejorar tu Comunidad",
+    title:"Conciencia Histórica — Mejorar tu Comunidad",
     place:"Rancho Nuevo de la Cruz, Abasolo",
-    desc:"Proyecto de divulgacion que documenta el ciclo completo del PAEC 2025-2026 e investiga la historia del CBTA 174 y del boulevard de Rancho Nuevo de la Cruz. En febrero de 2021 se dio el banderazo de pavimentacion de la Avenida del Trabajo — la arteria principal de la comunidad — con una inversion conjunta del Gobierno del Estado y el Municipio de Abasolo que supero los 19 millones de pesos.",
-    alumnos:["Michellle Alondra Hernandez Alfaro","Ximena Negrete Garcia","Esmeralda Camarillo Sanchez"],
-    docente:"Claudia Hernandez Laguna",
+    desc:"Proyecto de divulgación que documenta el ciclo completo del PAEC 2025-2026 e investiga la historia del CBTA 174 y del boulevard de Rancho Nuevo de la Cruz. En febrero de 2021 se dio el banderazo de pavimentación de la Avenida del Trabajo — la arteria principal de la comunidad — con una inversión conjunta del Gobierno del Estado y el Municipio de Abasolo que superó los 19 millones de pesos.",
+    alumnos:["Michellle Alondra Hernández Alfaro","Ximena Negrete García","Esmeralda Camarillo Sánchez"],
+    docente:"Claudia Hernández Laguna",
     findings:[
-      {v:"1975 — 84",d:"Origen y fundacion del CBTA 174: la idea nacio en 1975 y las actividades academicas iniciaron en septiembre de 1984."},
-      {v:"19M MXN",d:"Inversion publica en la pavimentacion del boulevard de Rancho Nuevo de la Cruz ejecutada en 2021."},
-      {v:"3 fases",d:"Ciclo completo del PAEC documentado: diagnostico en 2do, ejecucion en 4to y divulgacion en 5to semestre."}
+      {v:"1975 — 84",d:"Origen y fundación del CBTA 174: la idea nació en 1975 y las actividades académicas iniciaron en septiembre de 1984."},
+      {v:"19M MXN",d:"Inversión pública en la pavimentación del boulevard de Rancho Nuevo de la Cruz ejecutada en 2021."},
+      {v:"3 fases",d:"Ciclo completo del PAEC documentado: diagnóstico en 2do, ejecución en 4to y divulgación en 6to semestre."}
     ],
-    conc:"El proyecto cumplio el objetivo de dar visibilidad al esfuerzo colectivo de los alumnos del CBTA 174. Al integrar la historia del plantel y del boulevard con las actividades del PAEC, las alumnas crearon un documento que conecta el pasado de la comunidad con su presente y sienta bases para futuras ediciones."
+    conc:"El proyecto cumplió el objetivo de dar visibilidad al esfuerzo colectivo de los alumnos del CBTA 174. Al integrar la historia del plantel y del boulevard con las actividades del PAEC, las alumnas crearon un documento que conecta el pasado de la comunidad con su presente y sienta bases para futuras ediciones."
   }
 ];
-
+ 
 const COMMUNITIES = [
   {
     name:"Rancho Nuevo de la Cruz", muni:"Abasolo, Guanajuato",
-    detail:"Sede del CBTA 174 y principal comunidad intervenida. Aqui se realizaron jornadas de limpieza del plantel, diseno y publicacion de bardas comunitarias, e investigacion historica sobre la fundacion de la escuela y su boulevard. Es el epicentro del proyecto."
+    detail:"Sede del CBTA 174 y principal comunidad intervenida. Aquí se realizaron jornadas de limpieza del plantel, diseño y publicación de bardas comunitarias, e investigación histórica sobre la fundación de la escuela y su boulevard. Es el epicentro del proyecto."
   },
   {
     name:"Guadalupe de Rivera", muni:"Irapuato, Guanajuato",
-    detail:"Comunidad rural diagnosticada mediante FODA. Enfrenta inseguridad del crimen organizado en la region de Irapuato, escasez de empleo local y los efectos del cambio climatico en la produccion agricola familiar. Cuenta con redes de apoyo comunitarias solidas."
+    detail:"Comunidad rural diagnosticada mediante FODA. Enfrenta inseguridad del crimen organizado en la región de Irapuato, escasez de empleo local y los efectos del cambio climático en la producción agrícola familiar. Cuenta con redes de apoyo comunitarias sólidas."
   },
   {
-    name:"San Cristobal", muni:"Irapuato, Guanajuato",
-    detail:"Zona urbano-rural con aproximadamente 5,100 habitantes y edad promedio de 27 anos. Diagnosticada mediante FODA. Economia basada en agricultura y comercio. La inseguridad derivada del crimen organizado en Irapuato es su principal amenaza identificada."
+    name:"San Cristóbal", muni:"Irapuato, Guanajuato",
+    detail:"Zona urbano-rural con aproximadamente 5,100 habitantes y edad promedio de 27 años. Diagnosticada mediante FODA. Economía basada en agricultura y comercio. La inseguridad derivada del crimen organizado en Irapuato es su principal amenaza identificada."
   },
   {
     name:"La Trinidad", muni:"Abasolo, Guanajuato",
-    detail:"Comunidad encuestada sobre percepcion y manejo ambiental. Acumulacion de basura, quema de residuos y falta de areas verdes son los problemas mas urgentes. La prioridad de intervencion es la limpieza de calles y la instalacion de contenedores de residuos."
+    detail:"Comunidad encuestada sobre percepción y manejo ambiental. Acumulación de basura, quema de residuos y falta de áreas verdes son los problemas más urgentes. La prioridad de intervención es la limpieza de calles y la instalación de contenedores de residuos."
   },
   {
     name:"Plantel CBTA 174", muni:"Abasolo, Guanajuato",
-    detail:"El propio plantel fue intervenido como espacio comunitario. Brigadas de limpieza en estacionamiento, jardineras y areas recreativas. Se realizo separacion de residuos organicos e inorganicos y se recuperaron zonas descuidadas dentro de las instalaciones."
+    detail:"El propio plantel fue intervenido como espacio comunitario. Brigadas de limpieza en estacionamiento, jardineras y áreas recreativas. Se realizó separación de residuos orgánicos e inorgánicos y se recuperaron zonas descuidadas dentro de las instalaciones."
   }
 ];
 

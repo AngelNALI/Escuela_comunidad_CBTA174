@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Proyectos PEC — CBTA 174</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <header id="header">
+    <div class="header-inner">
+      <a href="#hero" class="logo">
+        <div class="logo-sq">174</div>
+        <span>CBTA 174 · PEC</span>
+      </a>
+      <nav id="nav-links">
+        <a href="#hero"        data-s="hero">Inicio</a>
+        <a href="#pec"         data-s="pec">El PEC</a>
+        <a href="#desarrollo"  data-s="desarrollo">Fases</a>
+        <a href="#proyectos"   data-s="proyectos">Proyectos</a>
+        <a href="#galeria"     data-s="galeria">Galeria</a>
+        <a href="#comunidades" data-s="comunidades">Comunidades</a>
+      </nav>
+      <button class="ham" id="ham"><span></span><span></span><span></span></button>
+    </div>
+    <div class="mob-nav" id="mob-nav">
+      <a href="#hero"        onclick="closeMob()">Inicio</a>
+      <a href="#pec"         onclick="closeMob()">El PEC</a>
+      <a href="#desarrollo"  onclick="closeMob()">Fases</a>
+      <a href="#proyectos"   onclick="closeMob()">Proyectos</a>
+      <a href="#galeria"     onclick="closeMob()">Galeria</a>
+      <a href="#comunidades" onclick="closeMob()">Comunidades</a>
+    </div>
+  </header>
+
+  <section id="hero" class="hero">
+    <div class="hero-bg" id="hero-bg">
+      <img src="" alt="CBTA 174"/>
+    </div>
+    <div class="hero-veil"></div>
+
+    <div class="hero-inner">
+      <p class="hero-kicker" data-r>
+        <span class="kicker-dot"></span>
+        CBTA 174 — Ciclo 2025 / 2026
+      </p>
+
+      <h1 class="hero-h1" data-r data-d="80">
+        Alumnos que<br>
+        <span class="h1-accent">transforman</span><br>
+        su comunidad.
+      </h1>
+
+      <div class="hero-bottom" data-r data-d="200">
+        <p class="hero-sub">
+          El Proyecto Escuela-Comunidad del CBTA 174 documenta
+          el trabajo de estudiantes que investigan, intervienen
+          y divulgan en sus comunidades de Guanajuato.
+        </p>
+        <div class="hero-actions">
+          <a href="#proyectos" class="btn-fill">Ver proyectos</a>
+          <a href="#pec" class="btn-line">Que es el PEC</a>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <section id="pec" class="sec-white">
+    <div class="container">
+      <div class="row-split">
+        <div class="split-left" data-r>
+          <p class="label">Marco educativo</p>
+          <h2 class="sec-title dark">Que es<br>el PEC</h2>
+        </div>
+        <div class="split-right">
+          <p class="body-text dark" data-r data-d="100">
+            El <strong>Proyecto Escuela-Comunidad</strong> integra investigacion academica
+            con accion y servicio comunitario. A traves del eje
+            <strong>Mejorando tu Comunidad</strong>, los alumnos del CBTA 174 aplican
+            sus competencias en contextos reales, generando cambios visibles
+            en las localidades del municipio de Abasolo, Guanajuato.
+          </p>
+          <p class="body-text dark" data-r data-d="180">
+            En su edicion 2025–2026 el enfoque fue <strong>Cultura y Cuidado del
+            Medio Ambiente</strong>. Desde encuestas y analisis FODA hasta jornadas
+            de limpieza y publicaciones digitales, cada semestre aporto una pieza
+            al mismo ciclo de transformacion comunitaria.
+          </p>
+          <p class="body-text dark" data-r data-d="240">
+            El proyecto opera en tres fases a lo largo de la trayectoria escolar,
+            garantizando un proceso completo: diagnostico, intervencion y
+            divulgacion de resultados ante la comunidad educativa.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="desarrollo" class="sec-black">
+    <div class="container">
+      <div class="sec-top" data-r>
+        <p class="label light">Como funciona</p>
+        <h2 class="sec-title light">Las tres fases</h2>
+      </div>
+      <div class="phases-list">
+
+        <div class="phase-item" data-r data-d="80">
+          <div class="phase-head">
+            <span class="phase-tag">01 — 2do Semestre</span>
+            <div class="phase-line"></div>
+          </div>
+          <h3 class="phase-name">Diagnostico e Investigacion</h3>
+          <p class="phase-desc">
+            Los alumnos de segundo semestre encuestan, documentan y mapean
+            las problematicas de sus comunidades. El resultado es un diagnostico
+            con propuestas concretas de mejora ambiental y social.
+          </p>
+          <div class="phase-pills">
+            <span>Encuestas</span><span>Analisis FODA</span>
+            <span>Mapeo de areas</span><span>Propuestas</span>
+          </div>
+        </div>
+
+        <div class="phase-item accent" data-r data-d="180">
+          <div class="phase-head">
+            <span class="phase-tag">02 — 4to Semestre</span>
+            <div class="phase-line"></div>
+          </div>
+          <h3 class="phase-name">Ejecucion y Mantenimiento</h3>
+          <p class="phase-desc">
+            Jornadas de limpieza, brigadas organizadas, disenos digitales para
+            bardas comunitarias y campanas de concientizacion dentro y fuera
+            del plantel educativo.
+          </p>
+          <div class="phase-pills">
+            <span>Jornadas de limpieza</span><span>Diseno en Canva</span>
+            <span>Brigadas</span><span>Campanas digitales</span>
+          </div>
+        </div>
+
+        <div class="phase-item" data-r data-d="280">
+          <div class="phase-head">
+            <span class="phase-tag">03 — 6to Semestre</span>
+            <div class="phase-line"></div>
+          </div>
+          <h3 class="phase-name">Divulgacion y Resultados</h3>
+          <p class="phase-desc">
+            Documentacion del impacto mediante sitios web, publicaciones en redes
+            sociales y presentacion de evidencias ante la comunidad educativa
+            para cerrar el ciclo con transparencia.
+          </p>
+          <div class="phase-pills">
+            <span>Google Sites</span><span>Facebook</span>
+            <span>Reportes</span><span>Presentacion academica</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="proyectos" class="sec-white">
+    <div class="container">
+      <div class="sec-top-row" data-r>
+        <div>
+          <p class="label">Catalogo 2025 — 2026</p>
+          <h2 class="sec-title dark">Proyectos</h2>
+        </div>
+        <div class="filter-wrap">
+          <div class="filters" id="filters">
+            <button class="fb active" data-f="all">Todos</button>
+            <button class="fb" data-f="2do">2do</button>
+            <button class="fb" data-f="4to">4to</button>
+
+            <button class="fb" data-f="foda">FODA</button>
+            <button class="fb" data-f="ambiental">Ambiental</button>
+          </div>
+          <span class="pcount" id="pcount">8 proyectos</span>
+        </div>
+      </div>
+      <div class="proj-list" id="proj-list"></div>
+    </div>
+  </section>
+
+  <section id="galeria" class="sec-black">
+    <div class="container">
+      <div class="sec-top" data-r>
+        <p class="label light">En accion</p>
+        <h2 class="sec-title light">Galeria</h2>
+      </div>
+    </div>
+    <div class="gallery" id="gallery">
+      <div class="gi" data-r>
+        <img src="Imagenes/Desarrollo 1.jpeg" alt="Actividad 1"/>
+        <div class="gi-cap"><span>Jornada de limpieza</span></div>
+      </div>
+      <div class="gi" data-r data-d="60">
+        <img src="Imagenes/Desarrollo 2.jpeg" alt="Actividad 2"/>
+        <div class="gi-cap"><span>Trabajo en equipo</span></div>
+      </div>
+      <div class="gi" data-r data-d="120">
+        <img src="Imagenes/Desarrollo 3.jpeg" alt="Actividad 3"/>
+        <div class="gi-cap"><span>Separacion de residuos</span></div>
+      </div>
+      <div class="gi" data-r data-d="80">
+        <img src="Imagenes/Desarrollo 4.jpeg" alt="Actividad 4"/>
+        <div class="gi-cap"><span>Brigada comunitaria</span></div>
+      </div>
+      <div class="gi" data-r data-d="160">
+        <img src="Imagenes/Desarrollo 5.jpeg" alt="Actividad 5"/>
+        <div class="gi-cap"><span>Cuidado del entorno</span></div>
+      </div>
+      <div class="gi" data-r data-d="200">
+        <img src="Imagenes/Desarrollo 6.jpeg" alt="Actividad 6"/>
+        <div class="gi-cap"><span>Impacto visible</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="comunidades" class="sec-white">
+    <div class="container">
+      <div class="sec-top-row" data-r>
+        <div>
+          <p class="label">Territorio intervenido</p>
+          <h2 class="sec-title dark">Comunidades</h2>
+        </div>
+        <span class="pcount dark">5 comunidades</span>
+      </div>
+      <div class="comm-list" id="comm-list"></div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-in">
+      <div>
+        <p class="footer-name">CBTA 174</p>
+        <p class="footer-sub">Rancho Nuevo de la Cruz, Abasolo, Guanajuato</p>
+      </div>
+      <p class="footer-right">PEC 2025 — 2026</p>
+    </div>
+  </footer>
+
+  <div class="modal-bg" id="modal-bg">
+    <div class="modal-box" id="modal-box">
+      <button class="modal-x" id="modal-x">✕</button>
+      <div class="modal-inner" id="modal-inner"></div>
+    </div>
+  </div>
+
+  <script src="java.js"></script>
+</body>
+</html>
